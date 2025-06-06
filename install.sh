@@ -24,7 +24,6 @@ cd telegram-vps-bot
 echo "📂 Copying files to /var/www/html/bot..."
 sudo mkdir -p /var/www/html/bot
 sudo cp -r telegram-bot-files/* /var/www/html/bot/
-
 sudo chown -R www-data:www-data /var/www/html/bot
 sudo chmod -R 755 /var/www/html/bot
 
